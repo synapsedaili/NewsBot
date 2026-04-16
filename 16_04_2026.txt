@@ -1,37 +1,56 @@
-## Görev Anlatımı
+Sen @olanslarsakami editörüsün.
 
-### Sen (@olanlarsakami) Hesabı ve Görme Alanı
+Modern, ferah ve zeki bir tarzın var. 
 
-Hesabınızın son 5 günlük karmaşık trendleri süzülmek ve bir günlük özet oluşturmanız gereken görev bulunmaktadır. Bu tarzda en azından 30 tweetlik akış açmanız ve her tweetin emoji içermesi ve kısa olmasını gerektirir.
-
-### Kurallar
-- Dili samimi (kanka tarzı), kısa ve öz olup.
-- Siyasetin boğuculuğundan uzak dur, teknoloji, spor ve yaşam odaklı ol.
-- Karakter hataları varsa (tuhaf semboller gibi) onları düzeltip temiz Türkçe yaz.
-
-### Formatta Kurallar
-- 5 tweetlik akış. 'Şaka mı bu?' enerjisiyle başla.
-- Her tweet emoji içermeli ve kısa olmalı.
-- Tweetler arasında '-->' kullanırız.
-
-### Web Ödülü
-
-#### Başlık: 16.04.2026 - Bugün Neler Oldu? 🌿
-#### Açıklama:
-Bu günlük özet, 5 gün içinde yaşanan en önemli ve anlamlı gelişmeleri ve etkilerini kapsayarak ilham vermektedir. Öncelikle okullarda katliam gösterme politisi'nin yayılmasının ve bu politisine karşı çıkması üzerine bir sonraki günde gerçekleşen çözdür. Şirketlerde teknoloji ile iletişim güçlendirme süreçleri, spor ve yaşam alanlarında yapılan projeler de özetlenir.
-
-#### Özet İçeriği:
-- **Trend 1: Okullarda Katliama Hayır**
-  - Bu trend, okullarda gerçekleşen katliam gösterme politisi'nin başlangıcı olarak belirlenmiştir. Eğitim alanında yaşanan bu durumları ve önlemlerini kapsayan genel özetlenir.
+--- Senin Hareketlerinden:
+- #FenerbahçeMedicana: "Ağlarken, Gökhan Ertok ile Otopsi: 'Başınız' - Kamerayı - Andımız"
+- #SarıMelekler: "#c31kTUTUKLANSIN" - Yağız Kaan Erdoğmuş
+- #asılmesele: "Selman, 'Gökhan Ertok ile Otopsi: Başınız'"
+- #aziçevlere: "Necmettin Bekçi ve Eşref Rüya: 'Kamerayı' - #Markova"
   
-- **Trend 2: C31 Küçük Türküler**
-  - C31'deki küçük Türküler, özellikle okullarda ve sosyal media üzerindeki entegrasyon süreçleriyle ilgili olarak kapsayabilir.
-  
-- **Trend 3: Suçlu Kim**
-  - Bu trend, suçlu kişileri ve politik alanındaki sorunların çözümü üzerine önemli noktaları kapsayabilir.
-  
-- **Trend 4: Furkan Konferansları**
-  - Bu konferansa gelecekteki politika kurumlarının ve eğitim sisteminin nasıl bir şekilde düzenleneceği hakkında bilgi veren önemli etkinlikler içerir.
-  
-- **Trend 5: Sarı Melekler**
-  -
+--- İşin:
+16.04.2026 - Günün Ferah Özeti 🌿
+---
+#SarıMelekler: "Bugün şunlar oldu, kafan rahat olsun!"
+#c31kTUTUKLANSIN: "- Kamerayı - Otopsi"
+- #aziçevlere: "Eşref Rüya ve Necmettin Bekçi: 'Kamerayı'"
+---
+#markova: "Necmettin Bekçi, Eşref Rüya ile Başınız: 'Gökhan Ertok ile Otopsi'"
+---
+--- Robotik:
+- "Selman ile Gökhan Ertok: Ağırların ve Kamera Anlatımı" - #aziçevlere
+---
+#aziçevlere: "Necmettin Bekçi, Eşref Rüya ile Başınız: 'Kamerayı'"
+---
+--- Samimi:
+- "Selman ile Gökhan Ertok: Ağırların ve Kamera Anlatımı" - #markova
+---
+#markova: "Necmettin Bekçi, Eşref Rüya ile Başınız: 'Gökhan Ertok ile Otopsi'"
+---
+
+---
+
+---
+
+--- Dilleri:
+- #aziçevlere: "Selman, Gökhan Ertok ve Eşref Rüya: 'Kamerayı'"
+---
+#markova: "Necmettin Bekçi, Eşref Rüya ile Başınız: 'Gökhan Ertok ile Otopsi'"
+---
+
+--- Emojilere:
+- #aziçevlere: "Eşref Rüya, Necmettin Bekçi ile Başınız: 'Kamerayı'"
+---
+#markova: "Necmettin Bekçi, Eşref Rüya ile Başınız: 'Gökhan Ertok ile Otopsi'"
+---
+
+--- Robotik:
+- "Selman ile Gökhan Ertok: Ağırların ve Kamera Anlatımı" - #aziçevlere
+---
+#aziçevlere: "Necmettin Bekçi, Eşref Rüya ile Başınız: 'Kamerayı'"
+---
+
+--- Samimi:
+- "Selman ile Gökhan Ertok: Ağırların ve Kamera Anlatımı" - #markova
+---
+#markova: "Necmettin Bekçi, Eşref
