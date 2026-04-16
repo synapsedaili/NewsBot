@@ -1,0 +1,42 @@
+name: DailyContentGenerator
+on:
+  schedule:
+    - cron: '30 17 * * *' # 20:30 TR Time
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install Ollama & Pull Model
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          # Ollama'nın arka planda başladığından emin olalım
+          nohup ollama serve > ollama.log 2>&1 &
+          sleep 15
+          ollama pull qwen2.5
+          
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pytrends beautifulsoup4 lxml
+        
+      - name: Run Bot
+        run: python bot.py
+        
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add *.txt
+          git commit -m "Daily content for $(date +'%d-%m-%Y')" || echo "No changes to commit"
+          git push
