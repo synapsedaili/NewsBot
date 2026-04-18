@@ -1,1 +1,16 @@
-Üretim Hatası: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)
+ 1. X_THREAD:
+   a) "İlk kez, Bilim İnsanları klitoris sinirlerinin boyutlu haritası oluşturdular! Bu gelişmeler, kadın sağlığı ve doğalgüne yol açar. #KadınSağlık #Bilim"
+   b) "Mourinho'nun yeni eğitmeni buldu! Fanların ne zaman beklediklerini geride bırakmaya çalışıyoruz. #Football #Mourinho"
+   c) "Orta yaşlarda Yüksek D Vitamini alabilir mi Alzheimer Riskini azaltabilir? Bu soru, yeni bir çalışma ile de çözülmüş. #Alzheimer #Yaslayiş"
+   d) "Sesvia'nın yeni ürünü buldum! Yararlı olmayan seslerden kurtulun ve yaşamınızı daha mutluyapmanıza yardımcı olacak. #Sesvia #SesKontrol"
+   e) "Storm Therapeutics, kanser tedavisindeki yeni ilaçlar geliştirdiler! Biyolojik terapiye geçiş, bir çok yaşamı kurtarmayacaktır. #Kanser #İlaçTeknoloji"
+
+2. WEB_ARTICLE: '18.04.2026 - Günün Ferah Özeti 🌿'
+   a) "Bilim İnsanları Klitoris Sinirlerinin İlk Üç Boyutlu Haritasını Çıkardı"
+   b) "Yeni Fikir, Yeni Dünya: Mourinho'nun Yeni Eğitmeni Buldu"
+   c) "Orta Yaşlarda Yüksek D Vitamini Seviyeleri Alzheimer Riskini Azaltabilir mi?"
+   d) "Sesvia'nın Yeni Ürünü Buldum: Ses Kontrolu Artırmak İçin"
+   e) "Storm Therapeutics, Kanser Tedavisindeki Yeni İlaçlar Geliştirdiler"
+   f) "56 milyon dolar yatırım aldı! Büyük gelişmeler arayan firma, kendi sektöründe başarı sağladı. #Yatırım #Teknoloji"
+   g) "OpenAI'ın Codex Güncellemesi Neler Sunuyor?"
+   h) "Hakem, TarÄ±k: Yeni Bir İhlas Gönderiyoruz"
