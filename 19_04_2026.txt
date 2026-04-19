@@ -1,1 +1,1 @@
-Hata: Metin boş çıktı.
+Hata: AI metin üretmeyi reddetti veya boş bıraktı.
