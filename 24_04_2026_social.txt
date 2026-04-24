@@ -1,0 +1,5 @@
+1. --- 
+2. "Yeni günün selamlarıyla, aujourd'hui ne olacağını bilememekle birlikte, sizleri herekiştirirken, günün ilk saatlerinde Twitter'da what's new'ları paylaşmak istedim. Öncelikle, teknoloji-world'de çok şeyler oldu. Meta'nın 8 bin kişiyi işten çıkarmayı planladığı yeni adımları ve Google'ın Cloud Next 2026 etkinliğinde yapay zeka sistemi Workspace Intelligence'ı tanıttığı haberleri paylaştım." 
+3. --- 
+4. "Ayrıca, EasyScribe adlı yapay zeka aracı ile ses ve video içeriklerinden otomatik olarak metin transkripti ve özetler oluşturuluyor. Ayrıca, Samsung Galaxy Z Fold8 Wide'ın tasarımı sızdı ve bu yeni modelin inceliği dikkat çekiyor." 
+5. ---
