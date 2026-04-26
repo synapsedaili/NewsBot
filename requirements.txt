@@ -1,0 +1,4 @@
+requirements.txtrequests
+beautifulsoup4
+feedparser
+gnews
