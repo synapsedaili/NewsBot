@@ -1,0 +1,45 @@
+name: NewsBot_Fin
+on:
+  schedule:
+    - cron: '30 17 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install Ollama & Pull Llama 3.2
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          nohup ollama serve > ollama.log 2>&1 &
+          sleep 30
+          ollama pull llama3.2 # Burayı llama3.2 yaptık!
+
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+        
+      - name: Run Bot
+        env:
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+        run: python bot.py
+        
+      - name: Push Changes
+        run: |
+          git config --global user.name "NewsBot"
+          git config --global user.email "bot@news.com"
+          git add *.txt
+          # Eğer değişen bir şey yoksa hata vermeden devam et
+          git commit -m "Ferah Gündem: $(date)" || exit 0
+          # Rebase yaparak uzak depodaki değişikliklerin üzerine kendi dosyalarını ekle
+          git pull --rebase origin main
+          git push origin main
