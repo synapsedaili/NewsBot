@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>NewsBot Radar Dashboard</title>
+    <style>
+        body { font-family: sans-serif; background: #f0f4f8; color: #333; padding: 20px; }
+        .card { background: white; border-radius: 8px; padding: 15px; margin-bottom: 10px; border-left: 5px solid #ccc; }
+        .passed { border-left-color: #2ecc71; }
+        .blocked { border-left-color: #e74c3c; opacity: 0.7; }
+        .badge { padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; }
+        .badge-passed { background: #d4f8e3; color: #27ae60; }
+        .badge-blocked { background: #f9d6d2; color: #c0392b; }
+    </style>
+</head>
+<body>
+    <h1>🌿 NewsBot Gündem Radarı</h1>
+    <div id="status-board"></div>
+
+    <script>
+        fetch('dashboard.json').then(r => r.json()).then(data => {
+            const board = document.getElementById('status-board');
+            const lastUpdate = data[data.length - 1];
+            
+            lastUpdate.analysis.forEach(item => {
+                const div = document.createElement('div');
+                div.className = `card ${item.status.toLowerCase()}`;
+                div.innerHTML = `
+                    <span class="badge badge-${item.status.toLowerCase()}">${item.status}</span>
+                    <h3>${item.title}</h3>
+                    <p>${item.summary}</p>
+                    <small>Analiz Notu: ${item.reason}</small>
+                `;
+                board.appendChild(div);
+            });
+        });
+    </script>
+</body>
+</html>
