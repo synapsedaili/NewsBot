@@ -1,6 +1,0 @@
-#requirements.txt
-
-tweepy
-pytrends
-requests
-beautifulsoup4
