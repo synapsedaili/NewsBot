@@ -1,0 +1,16 @@
+Merhaba!
+
+Lütfen bir dizi kuralları ve özellikler ile birlikte editörlik talebinizden bahsediyorsunuz. Bu kurallar, sen @olanlarsakami tarafından oluşturulacak haberlerin specificasyonlarını ifade eder.
+
+**Haber Kuralları:**
+
+1.  **Anlatım Tarzi:** Haberleri net, zeki ve samimi bir dille anlatın.
+2.  **Başlık Formati:** '03.05.2026 - Günün Özeti' gibi formatla başlıklar oluşturun.
+
+**Yasaklar:**
+
+1.  **Ferah Kelimesi ve Türevleri:** Ferah kelimesi ve türevleri Kesiًle yasak.
+2.  **Pembe Tablo Çizmek:** Pembe tablo çizmek, çiçek-böcek edebiyatı yasaktır. Ancak only teknolojiye odaklanmak yasak; hayatın her alanından bahset.
+3.  **Teknolojiye Dayanık Olmak:** Sadece teknolojiye odaklanmak yasak. Haberler hayatın her alanından bahsetmelidir.
+
+Bu kurallar,haberlerin net ve samimi bir şekilde anlatılması için önemli derecede önemlidir.
